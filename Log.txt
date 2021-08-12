@@ -1,0 +1,36 @@
+2021-05-23
+
+From B_Spells: 
+
+- add_icons.tpa (adds spell icons and port icons)
+- add_spell_ex.tpa  (modified add_spell)
+- alter_effect_add.tpa (modified alter_effect)
+- alter_spell_type.tpa (changes various aspects of spell not effects based)
+- bg2fp_effect_batches_fnp.tpa (spell compoatibility)
+- bg2fp_effect_batches_b_vise.tpa 
+- bg2fp_effect_batches_spell_saves.tpa 
+- ClassSpellTool.tpa (for class/kit specific spells)
+- Components.tpa (adds unique item components to the game)
+- craft_stuff.tpa (in process- function that automatically assigns tiers to m.items for craft purposes)
+- entropy_immunity.tpa (immunities specifically related to the spell Entropy Shield)
+- extra_alter_effect.tpa (another modified alter_effect)
+- illusion_crea.tpa (makes a cre illusionary)
+- immunities.tpa (base spell immunities and protection file)
+- make_cantrip.tpa (makes a spell a cantrip)
+- missing_wands.tpa (adds missing wands for crafting purposes)
+- remove_lines.tpa 
+- replace_text.tpa (replaces text via REPLACE_TEXTUALLY)
+- second_opp.tpa (adds additional prohibited schools to a spell)
+- spell_clone_effects.tpa (clone effect with extra options--I think!)
+- splprot_attributes.tpa (adds attribute based entries to splprot--not so necessary now, but already in use, so...)
+- splprot_orisons.tpa
+- spon_cast_functions.tpa
+- spon_cast_spells.tpa
+- summon_table.tpa (adds summon table?) 
+- tooltips.tpa (adds tooltip)
+- universal_scrolls.tpa
+
+From Proficiencies:
+
+- bg2fp_effect_batches_prof.tpa 
+-
