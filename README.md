@@ -1,2 +1,2 @@
-# IE_Up_to_Date
-This is just a repository where I keep all of the most up to date functions for my IE mods
+# IE up to Date
+This is a default mod template I use as a starting point for all of my IE mods going forward. 
