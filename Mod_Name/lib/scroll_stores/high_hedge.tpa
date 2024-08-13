@@ -1,3 +1,0 @@
-               COPY_EXISTING ~HIGHHEDG.sto~ ~override~
-                 ADD_STORE_ITEM "%scroll_name%" #1 #1 #0 "IDENTIFIED" #NUM
-
