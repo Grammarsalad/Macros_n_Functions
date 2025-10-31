@@ -1,3 +1,7 @@
+2025-10-31
+
+- Update Weidu
+
 2024-08-13
 
 - Initial Version
