@@ -1,13 +1,13 @@
-BACKUP ~backup/Skills_and_Proficiencies~
+BACKUP ~backup/Mod_Name~
 AUTHOR ~Grammarsalad~
-//README ~Skills_and_Proficiencies\Skills_and_Proficiencies_README.pdf~
+//README ~Mod_Name\Mod_Name_README.pdf~
 
 VERSION ~1.00.00~
 
 
 ALWAYS
 
-    OUTER_SPRINT ~folder~ ~Skills_and_Proficiencies~ // Replace "Mod_Name" with the actual mod folder name. 
+    OUTER_SPRINT ~folder~ ~Mod_Name~ // Replace "Mod_Name" with the actual mod folder name. 
 
  	ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
           OUTER_SPRINT ~gamez~ ~eetwo~
@@ -42,35 +42,35 @@ ALWAYS
           OUTER_SPRINT ~vroom~ ~iwdee_vroom~
     END
 
-    INCLUDE ~Skills_and_Proficiencies/Skills_and_Proficiencies_settings.ini~ 	//player set variables 
+    INCLUDE ~Mod_Name/Mod_Name_settings.ini~ 	//player set variables 
 
-    INCLUDE ~Skills_and_Proficiencies/lib/snm_functions.tpa~ 					//assorted functions 
+    INCLUDE ~Mod_Name/lib/snm_functions.tpa~ 					//assorted functions 
 
-    INCLUDE ~Skills_and_Proficiencies/lib/lib.tpa~  							//morph's hla functions
+    INCLUDE ~Mod_Name/lib/lib.tpa~  							//morph's hla functions
 
-    INCLUDE ~Skills_and_Proficiencies/lib/summon_table.tpa~
+    INCLUDE ~Mod_Name/lib/summon_table.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/splprot_attributes.tpa~
+    INCLUDE ~Mod_Name/lib/splprot_attributes.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/bg2fp_effect_batches_fnp.tpa~
+    INCLUDE ~Mod_Name/lib/bg2fp_effect_batches_fnp.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/bg2fp_effect_batches_b_vise.tpa~
+    INCLUDE ~Mod_Name/lib/bg2fp_effect_batches_b_vise.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/bg2fp_effect_batches_spell_saves.tpa~
+    INCLUDE ~Mod_Name/lib/bg2fp_effect_batches_spell_saves.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/ClassSpellTool.tpa~
+    INCLUDE ~Mod_Name/lib/ClassSpellTool.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/item_casting.tpa~
+    INCLUDE ~Mod_Name/lib/item_casting.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/add_headers.tpa~
+    INCLUDE ~Mod_Name/lib/add_headers.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/add_sumtable.tpa~
+    INCLUDE ~Mod_Name/lib/add_sumtable.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/SEQUENCER_MENU.tpa~
+    INCLUDE ~Mod_Name/lib/SEQUENCER_MENU.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/spell_to_innate.tpa~
+    INCLUDE ~Mod_Name/lib/spell_to_innate.tpa~
 
-    INCLUDE ~Skills_and_Proficiencies/lib/spell_clone_effects.tpa~
+    INCLUDE ~Mod_Name/lib/spell_clone_effects.tpa~
 
 END
 
@@ -82,16 +82,16 @@ END
 ASK_EVERY_COMPONENT
 
 /* Language Settings */
-AUTO_TRA ~Skills_and_Proficiencies/tra/%s~
+AUTO_TRA ~Mod_Name/tra/%s~
 LANGUAGE ~English~ ~english~
-         ~Skills_and_Proficiencies/tra/english/setup.tra~
-//       ~Skills_and_Proficiencies/tra/english/new_spells.tra~  //for new spells
-//       ~Skills_and_Proficiencies/tra/english/IWD_spells.tra~  //for IWDEE spells
-//       ~Skills_and_Proficiencies/tra/english/enchant_items.tra~
-//       ~Skills_and_Proficiencies/tra/english/cantrips.tra~  //for cantrips
-//       ~Skills_and_Proficiencies/tra/english/revised.tra~  //for revised
-//       ~Skills_and_Proficiencies/tra/english/items.tra~  //for items
-//       ~Skills_and_Proficiencies/tra/english/icons.tra~   //icons
+         ~Mod_Name/tra/english/setup.tra~
+//       ~Mod_Name/tra/english/new_spells.tra~  //for new spells
+//       ~Mod_Name/tra/english/IWD_spells.tra~  //for IWDEE spells
+//       ~Mod_Name/tra/english/enchant_items.tra~
+//       ~Mod_Name/tra/english/cantrips.tra~  //for cantrips
+//       ~Mod_Name/tra/english/revised.tra~  //for revised
+//       ~Mod_Name/tra/english/items.tra~  //for items
+//       ~Mod_Name/tra/english/icons.tra~   //icons
 
 
 
@@ -100,7 +100,7 @@ LANGUAGE ~English~ ~english~
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////                                                                          ////////////////////////
-////////////////////////             Skills_and_Proficiencies: 101-107: Weapon Mastery            ////////////////////////
+////////////////////////             Mod_Name: 101-107: Weapon Mastery            ////////////////////////
 ////////////////////////                                                                          ////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
